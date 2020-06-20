@@ -1,7 +1,8 @@
 ---
-title: BWHazel Web Site
+title: Benedict W. Hazel
+layout: default
 ---
 
-# BWHazel Web Site
+# Benedict W. Hazel
 
 Welcome to my new site!
