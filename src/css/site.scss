@@ -1,0 +1,8 @@
+---
+---
+
+@import "./materialize";
+
+.colour-primary {
+    @extend .teal, .darken-1;
+}
