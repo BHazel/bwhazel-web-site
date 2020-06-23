@@ -6,3 +6,10 @@
 .colour-primary {
     @extend .teal, .darken-1;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333333;
+        color: #ffffff;
+    }
+}
