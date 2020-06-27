@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: bwhazel-site
+  namespace: default
+  annotations:
+    kubernetes.io/ingress.class: traefik
+spec:
+  rules:
+  - host: k8s.bwhazel.co.uk
+    http:
+      paths:
+      - path: /home
+        backend:
+          serviceName: bwhazel-site
+          servicePort: 80

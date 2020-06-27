@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: bwhazel-site
+spec:
+  selector:
+    app: bwhazel-site
+  ports:
+  - port: 80
+    targetPort: 80
