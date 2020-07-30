@@ -1,14 +1,27 @@
 <div class="parallax-container">
     <div class="section no-pad-bot">
         <div class="container">
-            <br />
-            <br />
-            <h1 class="header center">{{include.title}}</h1>
-            <div class="row center">
-                <h4>{{include.subtitle}}</h4>
+            {% if include.image %}
+            <div class="row">
+                <div class="col s12 m4 center">
+                    <img width="240em" height="240em" class="circle responsive-img" src="{{include.image}}" alt="{{include.imageAltText}}" />
+                </div>
+                <div class="col s12 m8">
+            {% else %}
+                <br />
+                <br />
+            {% endif %}
+                    <h1 class="header center">{{include.title}}</h1>
+                    <div class="row center">
+                        <h4>{{include.subtitle}}</h4>
+                    </div>
+            {% if include.image %}
+                </div>
             </div>
-            <br />
-            <br />
+            {% else %}
+                <br />
+                <br />
+            {% endif %}
         </div>
     </div>
     <div class="parallax">
