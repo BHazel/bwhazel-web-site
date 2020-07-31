@@ -11,10 +11,14 @@
                 <br />
                 <br />
             {% endif %}
+                    {% if include.title %}
                     <h1 class="header center">{{include.title}}</h1>
+                    {% endif %}
+                    {% if include.subtitle %}
                     <div class="row center">
                         <h4>{{include.subtitle}}</h4>
                     </div>
+                    {% endif %}
             {% if include.image %}
                 </div>
             </div>
