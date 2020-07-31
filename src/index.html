@@ -4,17 +4,42 @@ layout: default
 ---
 
 <!-- Parallax Site Title -->
+{% assign meTitle = site.data.content.me.sectionTitle %}
 {% include parallaxTitle.html
-    title="Benedict W. Hazel"
-    subtitle="London based Theoretical Chemist turned Software Engineer"
-    image="/img/me.png"
-    imageAltText="Me"
-    backgroundImage="/img/londonSkyline.jpg"
-    backgroundImageAltText="London Skyline"
+    title=meTitle.title
+    subtitle=meTitle.subtitle
+    image=meTitle.image
+    imageAltText=meTitle.imageAltText
+    backgroundImage=meTitle.backgroundImage
+    backgroundImageAltText=meTitle.backgroundImageAltText
 %}
 
 <!-- Me Introduction -->
 {% include me.html %}
+
+<!-- Parallax Computing Title -->
+{% assign computingTitle = site.data.content.computing.sectionTitle %}
+{% include parallaxTitle.html
+    subtitle=computingTitle.subtitle
+    backgroundImage=computingTitle.backgroundImage
+    backgroundImageAltText=computingTitle.backgroundImageAltText
+%}
+
+<!-- Parallax Music Title -->
+{% assign musicTitle = site.data.content.music.sectionTitle %}
+{% include parallaxTitle.html
+    subtitle=musicTitle.subtitle
+    backgroundImage=musicTitle.backgroundImage
+    backgroundImageAltText=musicTitle.backgroundImageAltText
+%}
+
+<!-- Parallax Sport & Leisure Title -->
+{% assign sportTitle = site.data.content.sport.sectionTitle %}
+{% include parallaxTitle.html
+    subtitle=sportTitle.subtitle
+    backgroundImage=sportTitle.backgroundImage
+    backgroundImageAltText=sportTitle.backgroundImageAltText
+%}
 
 <!-- Page Footer -->
 {% include footer.html %}
