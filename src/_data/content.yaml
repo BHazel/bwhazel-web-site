@@ -16,6 +16,11 @@ computing:
     subtitle: Computing
     backgroundImage: /img/codeRacks.jpg
     backgroundImageAltText: Code with Server Racks
+chemistry:
+  sectionTitle:
+    subtitle: Chemistry
+    backgroundImage: /img/chemistryLabware.jpg
+    backgroundImageAltText: Chemistry Labware
 music:
   sectionTitle:
     subtitle: Music

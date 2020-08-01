@@ -25,6 +25,14 @@ layout: default
     backgroundImageAltText=computingTitle.backgroundImageAltText
 %}
 
+<!-- Parallax Chemistry Title -->
+{% assign chemistryTitle = site.data.content.chemistry.sectionTitle %}
+{% include parallaxTitle.html
+    subtitle=chemistryTitle.subtitle
+    backgroundImage=chemistryTitle.backgroundImage
+    backgroundImageAltText=chemistryTitle.backgroundImageAltText
+%}
+
 <!-- Parallax Music Title -->
 {% assign musicTitle = site.data.content.music.sectionTitle %}
 {% include parallaxTitle.html
