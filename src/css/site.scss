@@ -27,6 +27,27 @@ footer .page-footer {
     margin: 0;
 }
 
+#computing-skills {
+    @extend .colour-scheme-override;
+    @extend .colour-secondary;
+
+    .skill-competent {
+        @extend .colour-primary;
+    }
+
+    .skill-developing {
+        @extend .amber, .accent-3;
+    }
+
+    .skill-experience {
+        @extend .deep-orange, .darken-3;
+    }
+
+    .skill-otherInterest {
+        @extend .light-blue, .darken-4;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #333333;
