@@ -16,6 +16,47 @@ computing:
     subtitle: Computing
     backgroundImage: /img/codeRacks.jpg
     backgroundImageAltText: Code with Server Racks
+  details:
+    - I have always been interested in computers since the age of 6 when my family bought our first computer with Windows 3.1.  I discovered programming when I was 11 with BBC BASIC and Microsoft Visual Basic 6.0 when I was 12, still one of the greatest Christmas presents ever!
+    - I specialise in the Microsoft .NET platform, including ASP.NET for the web, and Microsoft Azure cloud but happily work with many difference technologies.  On a daily basis I use and develop on Windows, macOS and Linux and have had experience with development for mobile platforms such as iOS and Android.
+    - My other IT interests include game development and some dabbling in low-level programming with x86 and ARM assembly!  And talking of games I do enjoy some unwinding time on the Xbox One!
+  skillHighlights:
+    competent:
+      - .NET
+      - ASP.NET
+      - C#
+      - VB
+      - Entity Framework
+      - WinForms
+      - WPF
+      - Azure
+      - SQL Server
+      - HTML
+      - JavaScript
+      - CSS
+      - Docker
+      - C/C++
+    developing:
+      - Kubernetes
+      - Helm
+      - Python
+      - Rust
+      - Swift
+    experience:
+      - Android
+      - iOS
+      - Java
+      - Objective-C
+      - Go
+      - Oracle
+      - Postgres
+      - SSIS
+      - MongoDB
+      - AWS
+    otherInterest:
+      - Assembly (x86/ARM)
+      - Unity
+      - Unreal Engine
 chemistry:
   sectionTitle:
     subtitle: Chemistry
