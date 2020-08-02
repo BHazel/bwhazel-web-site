@@ -23,32 +23,20 @@
                             {% endfor %}
                         </div>
                     </li>
+                    {% for paper in chemistryData.bigSquares.papers %}
                     <li>
-                        <div class="collapsible-header colour-primary">Metallomacroycles Paper</div>
+                        <div class="collapsible-header colour-primary">{{paper.siteTitle}}</div>
                         <div class="collapsible-body">
-                            {% assign metallomacroyclesPaper = chemistryData.bigSquares.papers.metallomacrocycleIntroduction %}
-                            <h6>{{metallomacroyclesPaper.title}}</h6>
+                            <h6>{{paper.title}}</h6>
                             <blockquote>
-                                <p>{{metallomacroyclesPaper.authors}}</p>
-                                <cite>{{metallomacroyclesPaper.citation}}</cite>
+                                <p>{{paper.authors}}</p>
+                                <cite>{{paper.citation}}</cite>
                             </blockquote>
-                            <a class="btn waves-effect" href="{{metallomacroyclesPaper.link}}">Read Online</a>
-                            <p>{{metallomacroyclesPaper.abstract}}</p>
+                            <a class="btn waves-effect" href="{{paper.link}}">Read Online</a>
+                            <p>{{paper.abstract}}</p>
                         </div>
                     </li>
-                    <li>
-                        <div class="collapsible-header colour-primary">Research Contributions Paper</div>
-                        <div class="collapsible-body">
-                            {% assign researchContributionsPaper = chemistryData.bigSquares.papers.researchContribution %}
-                            <h6>{{researchContributionsPaper.title}}</h6>                            
-                            <blockquote>
-                                <p>{{researchContributionsPaper.authors}}</p>
-                                <cite>{{researchContributionsPaper.citation}}</cite>
-                            </blockquote>
-                            <a class="btn waves-effect" href="{{researchContributionsPaper.link}}">Read Online</a>
-                            <p>{{researchContributionsPaper.abstract}}</p>
-                        </div>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
