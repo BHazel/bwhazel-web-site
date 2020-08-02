@@ -3,12 +3,36 @@
 
 @import "./materialize";
 
+.colour-primary-base {
+    @extend .teal;
+}
+
+.colour-primary-shade {
+    @extend .darken-1;
+}
+
+.colour-primary-shade-dark {
+    @extend .darken-3;
+}
+
+.colour-secondary-base {
+    @extend .purple;
+}
+
+.colour-secondary-shade {
+    @extend .darken-4;
+}
+
 .colour-primary {
-    @extend .teal, .darken-1;
+    @extend .colour-primary-base, .colour-primary-shade;
+}
+
+.colour-primary-dark {
+    @extend .colour-primary-base, .colour-primary-shade-dark;
 }
 
 .colour-secondary {
-    @extend .purple, .darken-4;
+    @extend .colour-secondary-base, .colour-secondary-shade;
 }
 
 .parallax-container {
