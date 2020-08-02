@@ -1,0 +1,44 @@
+{% assign chemistryData = site.data.content.chemistry %}
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                {% for detail in chemistryData.details %}
+                <p>{{detail}}</p>
+                {% endfor %}
+            </div>
+            <div class="col s12 m6 colour-scheme-override colour-secondary">
+                <h5>{{chemistryData.bigSquares.title}}</h5>
+                <h6>{{chemistryData.bigSquares.phdTitle}}</h6>
+                <blockquote>
+                    <p>{{chemistryData.bigSquares.macrocycleQuote.quote}}</p>
+                    <cite>{{chemistryData.bigSquares.macrocycleQuote.citation}}</cite>
+                </blockquote>
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header colour-primary">My PhD Research Overview</div>
+                        <div class="collapsible-body colour-primary-dark">
+                            {% for researchOverviewDetail in chemistryData.bigSquares.researchOverview %}
+                            <p>{{researchOverviewDetail}}</p>
+                            {% endfor %}
+                        </div>
+                    </li>
+                    {% for paper in chemistryData.bigSquares.papers %}
+                    <li>
+                        <div class="collapsible-header colour-primary">{{paper.siteTitle}}</div>
+                        <div class="collapsible-body colour-primary-dark">
+                            <h6>{{paper.title}}</h6>
+                            <blockquote>
+                                <p>{{paper.authors}}</p>
+                                <cite>{{paper.citation}}</cite>
+                            </blockquote>
+                            <a class="btn waves-effect" href="{{paper.link}}">Read Online</a>
+                            <p>{{paper.abstract}}</p>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

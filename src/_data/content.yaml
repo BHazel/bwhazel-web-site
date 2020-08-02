@@ -62,6 +62,34 @@ chemistry:
     subtitle: Chemistry
     backgroundImage: /img/chemistryLabware.jpg
     backgroundImageAltText: Chemistry Labware
+  details:
+    - I became interested in chemistry at 12 and went on to do a masters degree and PhD at the University of Sheffield.
+    - During my academic studies and research I specialised in inorganic and theoretical chemistry, a polar opposite to when I first arrived at university as an organic chemist vowing never to into physical chemistry.  My PhD was in applied molecular quantum theory, about as physical as you can get!
+    - It was during my PhD that I got deeply into programming, mostly in my own time but with some as part of my research investigating quantum dynamics of molecules.  It was this programming experience which led me to pursue a career in software engineering.
+  bigSquares:
+    title: Big Squares (PhD Research)
+    phdTitle: Properties of Metallomacrocycles with d<sup>6</sup> Metal Centres
+    macrocycleQuote:
+      quote: Supermolecules are to molecules and the intermolecular bond what molecules are to atoms and the covalent bond.
+      citation: Jean-Marie Lehn, Angew. Chem. Int. Ed., <strong>1990</strong>, 20, 1304
+    researchOverview:
+      - Metallomacrocycles are examples of cyclic supermolecules, effectively made up of smaller molecules and a large central cavity.  In this case they are organic linker units and metal-centred complexes. They are often referred to as Molecular Squares as the metal complexes form the corners and are linked together via the organic compounds which are usually linear.
+      - The metallomacrocycles I studied contain two metals, ruthenium and rhenium, each on two opposite corners.  They are linked together by an interesting C-shaped molecule called quaterpyridine which incorporates the ruthenium corners into its structure.  The quaterpyridine also changes the overall shape of the metallomacrocycle into a bowl which results in a more rhombic central cavity.  This cavity can accept small guest molecules which can also affect the overall metallomacrocycle structure.
+      - It is these "host-guest" interactions between the metallomacrocycle and small guests that I studied using quantum modelling.  This is a computational technique for simulating the molecules and their interactions on the computer.
+      - The two papers in the other popup sections below contain information about the metallomacrocycles I studied.  The first is an introduction to them and the second is one I co-wrote and presents of some of my research.  Both papers are co-written by Prof. Anthony Meijer and Prof. Jim Thomas, my PhD supervisors.
+    papers:
+      - siteTitle: Metallomacrocycles Paper
+        title: "Self-Assembled, Kinetically Locked, Ru<sup>II</sup>-Based Metallomacrocycles: Physical, Structural, and Modeling Studies"
+        authors: Paul de Wolf, Phil Waywell, Matt Hanson, Sarah L. Heath, Anthony J. H. M. Meijer, Simon J. Teat, Jim A. Thomas
+        abstract: By using a “complex as ligand approach,” the metal-ion-templated self-assembly of heterometallic teteranuclear metallomacrocycles containing kinetically locked RuII centers is described.  Depending on the metal-ion template employed in the self-assembly process, the final macrocycle can be kinetically labile or inert.  Electrochemical studies reveal that the kinetically inert macrocycles display reversible Ru<sup>III</sup>/<sup>II</sup> oxidation couples.  The crystal structure of a kinetically inert Ru2Re2 macrocycles reveals a structurally complex palmate anion-binding pocket.  Host–guest studies carried out with the same macrocyle in organic solvents reveals that the complex functions as a luminescent sensor for anions and that binding affinity and luminescent modulation is dependent on the structural nature and charge of the guest anion.  Computational density functional theory (DFT) studies support the hypothesis that the luminescence of the macrocycle is from a 3MLCT state and further suggests that the observed guest-induced luminescence changes are most likely due to modulation of nonradiative decay processes.
+        citation: Chem. Eur. J., 2006, <strong>12</strong>, 8, 2188-2195
+        link: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.200500623
+      - siteTitle: Research Contributions Paper
+        title: A Self-Assembled Luminescent Host That Selectively Senses ATP in Water
+        authors: Haslina Ahmad, Benedict W. Hazel, Anthony J. H. M. Meijer, Jim A. Thomas, Karl A. Wilkinson
+        abstract: Metal-ion-directed self-assembly has been used to construct kinetically inert, water-soluble heterometallic Ru<sub>2</sub>Re<sub>2</sub> hosts that are potential sensors for bioanions.  A previously reported metallomacrocycle and a new derivative synthesised by this approach are found to be general sensors for bioanions in water, showing an “off–on” luminescent change that is selective for nucleotides over uncharged nucleobases.  Through a change in the ancillary ligands coordinated to the ruthenium centres of the host, an “off–on” sensor has been produced.  Whilst this host only shows a modest enhancement in binding affinities for nucleotides relative to the other two host systems, its sensing response is much more specific.  Although a distinctive “off–on” luminescence response is observed for the addition of adenosine triphosphosphate (ATP), related structures such as adenine and guanosine triphosphate (GTP) do not induce any emission change in the host.  Detailed and demanding DFT studies on the ATP- and GTP-bound host–guest complexes reveal subtle differences in their geometries that modulate the stacking interactions between the nucleotide guests and the ancillary ligands of the host.  It is suggested that this change in stacking geometries affects solvent accessibility to the binding pocket of the host and thus leads to observed difference in the host luminescence response to the guests.
+        citation: Chem. Eur. J., 2013, <strong>19</strong>, 16, 5081-5087
+        link: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.201203603
 music:
   sectionTitle:
     subtitle: Music
