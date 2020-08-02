@@ -1,0 +1,56 @@
+{% assign chemistryData = site.data.content.chemistry %}
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                {% for detail in chemistryData.details %}
+                <p>{{detail}}</p>
+                {% endfor %}
+            </div>
+            <div class="col s12 m6 colour-scheme-override colour-secondary">
+                <h5>{{chemistryData.bigSquares.title}}</h5>
+                <h6>{{chemistryData.bigSquares.phdTitle}}</h6>
+                <blockquote>
+                    <p>{{chemistryData.bigSquares.macrocycleQuote.quote}}</p>
+                    <cite>{{chemistryData.bigSquares.macrocycleQuote.citation}}</cite>
+                </blockquote>
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header colour-primary">My PhD Research Overview</div>
+                        <div class="collapsible-body">
+                            {% for researchOverviewDetail in chemistryData.bigSquares.researchOverview %}
+                            <p>{{researchOverviewDetail}}</p>
+                            {% endfor %}
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header colour-primary">Metallomacroycles Paper</div>
+                        <div class="collapsible-body">
+                            {% assign metallomacroyclesPaper = chemistryData.bigSquares.papers.metallomacrocycleIntroduction %}
+                            <h6>{{metallomacroyclesPaper.title}}</h6>
+                            <blockquote>
+                                <p>{{metallomacroyclesPaper.authors}}</p>
+                                <cite>{{metallomacroyclesPaper.citation}}</cite>
+                            </blockquote>
+                            <a class="btn waves-effect" href="{{metallomacroyclesPaper.link}}">Read Online</a>
+                            <p>{{metallomacroyclesPaper.abstract}}</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header colour-primary">Research Contributions Paper</div>
+                        <div class="collapsible-body">
+                            {% assign researchContributionsPaper = chemistryData.bigSquares.papers.researchContribution %}
+                            <h6>{{researchContributionsPaper.title}}</h6>                            
+                            <blockquote>
+                                <p>{{researchContributionsPaper.authors}}</p>
+                                <cite>{{researchContributionsPaper.citation}}</cite>
+                            </blockquote>
+                            <a class="btn waves-effect" href="{{researchContributionsPaper.link}}">Read Online</a>
+                            <p>{{researchContributionsPaper.abstract}}</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
