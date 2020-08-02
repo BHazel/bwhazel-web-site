@@ -17,7 +17,7 @@
                 <ul class="collapsible popout">
                     <li>
                         <div class="collapsible-header colour-primary">My PhD Research Overview</div>
-                        <div class="collapsible-body">
+                        <div class="collapsible-body colour-primary-dark">
                             {% for researchOverviewDetail in chemistryData.bigSquares.researchOverview %}
                             <p>{{researchOverviewDetail}}</p>
                             {% endfor %}
@@ -26,7 +26,7 @@
                     {% for paper in chemistryData.bigSquares.papers %}
                     <li>
                         <div class="collapsible-header colour-primary">{{paper.siteTitle}}</div>
-                        <div class="collapsible-body">
+                        <div class="collapsible-body colour-primary-dark">
                             <h6>{{paper.title}}</h6>
                             <blockquote>
                                 <p>{{paper.authors}}</p>
