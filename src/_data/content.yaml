@@ -95,6 +95,24 @@ music:
     subtitle: Music
     backgroundImage: /img/sheetMusic.jpg
     backgroundImageAltText: Sheet Music
+  details:
+    - I am musical and have played several instruments and sung throughout my life.  I primarily sing tenor these days and am involved in a local choir and some amateur operatics with a Gilbert &amp; Sullivan light opera company.
+    - It all started when I was 4 when I started playing the piano as an alternative to gym!  Over the years that was followed by the recorder, both descant and treble, flute, a short stint on the 'cello which confirmed I am a wind player and finally teaching myself the alto saxophone!
+    - I have also written some music, both classical and modern, one album of which is available on numerous streaming services!
+  compositions:
+    title: Compositions
+    instrumentalScores:
+      title: Instrumental Scores
+      detail: A selection of my instrumental compositions are available to view and listen to online.
+      link:
+        text: Listen at MuseScore
+        url: https://musescore.com/user/536
+    fourForces:
+      title: Four Forces
+      detail: Listen to samples of <em>Four Forces</em>, an electronica album I wrote using GarageBand.
+      link:
+        text: Find out More
+        url: http://4forces.bwhazel.co.uk
 sport:
   sectionTitle:
     subtitle: Sport &amp; Leisure
