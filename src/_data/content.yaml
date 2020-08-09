@@ -24,6 +24,11 @@ computing:
     - I specialise in the Microsoft .NET platform, including ASP.NET for the web, and Microsoft Azure cloud but happily work with many difference technologies.  On a daily basis I use and develop on Windows, macOS and Linux and have had experience with development for mobile platforms such as iOS and Android.
     - My other IT interests include game development and some dabbling in low-level programming with x86 and ARM assembly!  And talking of games I do enjoy some unwinding time on the Xbox One!
   skillHighlights:
+    skillLevelInfo:
+      competent: Competent
+      developing: Developing
+      experience: Experience
+      otherInterest: Other Interests
     competent:
       - .NET
       - ASP.NET
