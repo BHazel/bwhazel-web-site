@@ -118,3 +118,51 @@ sport:
     subtitle: Sport &amp; Leisure
     backgroundImage: /img/chessPieces.jpg
     backgroundImageAltText: Chess Pieces
+  details:
+    - I have never been that sporty and many I know would testify to that!  Taking up squash at school was a great way to avoid the cold afternoons of football and at University I went to Sports Fair to pick up freebies!  That is until 2008 when I discovered Taekwondo, signed up and never looked back!  Within 4 years I had attained my 1st Dan black belt!
+    - I also have a great passion for board and card games, playing frequently with friends.  We had a very active group at my first job in Oxfordshire often visiting Thirsty Meeples, the first board game cafe in the UK.
+  taekwondo:
+    title: My Taekwondo Journey
+    competitions:
+      - date: 13th November 2010
+        event: Kyo Hoon Taekwondo, Sheffield
+        entries:
+          - Poomsae (Jung In) - Bronze
+        video: https://www.youtube.com/watch?v=jIJbiOlm_eo
+        photos: https://get.google.com/albumarchive/101454188929422616159/album/AF1QipMxF5HINrEmiVN_B1Tr0QEh-s82nxZ90ugCtrUd
+      - date: 21st April 2012
+        event: Kyo Hoon Taekwondo, Sheffield
+        entries:
+          - Poomsae (Jung Do) - Silver
+          - Fighting - Bronze
+        video: https://www.youtube.com/watch?v=lvEgZVoiHgw
+    milestones:
+      - date: September 2008
+        detail: Start training Taekwondo at Sheffield University club; <em>"London 2012, Here I Come!"</em>
+      - date: December 2008
+        detail: Pass my first grading from white to yellow belt.
+      - date: April 2010
+        detail: Elected to position of publicity officer of SU club and grade from green belt to blue tag.
+      - date: April 2011
+        detail: Elected to position of secretary of SU club.
+      - date: November 2011
+        detail: Become captain (acting) of SU club, risking causing a rupture in the space-time continuum.
+      - date: December 2011
+        detail: Give obligatory captain's speech at SU club Christmas meal!
+      - date: April 2012
+        detail: Grade from red belt to black tag.
+      - date: August 2012
+        detail: Watch 12 hours of Taekwondo at the ExCeL during the London 2012 Olympics.
+      - date: October 2012
+        detail: Grade from black tag to 1st dan black belt.
+      - date: October 2015
+        detail: Brush shoulders with the high and mighty of the Taekwondo world, including Team GB members, at a Taekwondo Grand Prix in Manchester!
+      - date: Current
+        detail: Getting back into the martial art after some time out and aiming for 2nd Dan black belt.
+    carousel:
+      - image: fightingGear.jpg
+        altText: Me in Fighting Gear
+      - image: jumpingKick.jpg
+        altText: Jumping Front Kick
+      - image: blackBelt.jpg
+        altText: Getting my 1st Dan Black Belt
