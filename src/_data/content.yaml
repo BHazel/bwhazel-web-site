@@ -148,42 +148,54 @@ sport:
   taekwondo:
     title: My Taekwondo Journey
     competitions:
-      - date: 13th November 2010
-        event: Kyo Hoon Taekwondo, Sheffield
-        entries:
-          - Poomsae (Jung In) - Bronze
-        video: https://www.youtube.com/watch?v=jIJbiOlm_eo
-        photos: https://get.google.com/albumarchive/101454188929422616159/album/AF1QipMxF5HINrEmiVN_B1Tr0QEh-s82nxZ90ugCtrUd
-      - date: 21st April 2012
-        event: Kyo Hoon Taekwondo, Sheffield
-        entries:
-          - Poomsae (Jung Do) - Silver
-          - Fighting - Bronze
-        video: https://www.youtube.com/watch?v=lvEgZVoiHgw
+      title: Competitions
+      events:
+        - date: 13th November 2010
+          event: Kyo Hoon Taekwondo, Sheffield
+          entries:
+            - Poomsae (Jung In) - Bronze
+          videoLink:
+            url: https://www.youtube.com/watch?v=jIJbiOlm_eo
+            text: Watch on YouTube
+          photosLink:
+            url: https://get.google.com/albumarchive/101454188929422616159/album/AF1QipMxF5HINrEmiVN_B1Tr0QEh-s82nxZ90ugCtrUd
+            text: Event Photos
+        - date: 21st April 2012
+          event: Kyo Hoon Taekwondo, Sheffield
+          entries:
+            - Poomsae (Jung Do) - Silver
+            - Fighting - Bronze
+          videoLink:
+            url: https://www.youtube.com/watch?v=lvEgZVoiHgw
+            text: Watch on YouTube
     milestones:
-      - date: September 2008
-        detail: Start training Taekwondo at Sheffield University club; <em>"London 2012, Here I Come!"</em>
-      - date: December 2008
-        detail: Pass my first grading from white to yellow belt.
-      - date: April 2010
-        detail: Elected to position of publicity officer of SU club and grade from green belt to blue tag.
-      - date: April 2011
-        detail: Elected to position of secretary of SU club.
-      - date: November 2011
-        detail: Become captain (acting) of SU club, risking causing a rupture in the space-time continuum.
-      - date: December 2011
-        detail: Give obligatory captain's speech at SU club Christmas meal!
-      - date: April 2012
-        detail: Grade from red belt to black tag.
-      - date: August 2012
-        detail: Watch 12 hours of Taekwondo at the ExCeL during the London 2012 Olympics.
-      - date: October 2012
-        detail: Grade from black tag to 1st dan black belt.
-      - date: October 2015
-        detail: Brush shoulders with the high and mighty of the Taekwondo world, including Team GB members, at a Taekwondo Grand Prix in Manchester!
-      - date: Current
-        detail: Getting back into the martial art after some time out and aiming for 2nd Dan black belt.
-    carousel:
+      title: Significant Milestones
+      dateHeader: Date
+      milestoneHeader: Milestone
+      timeline:
+        - date: September 2008
+          detail: Start training Taekwondo at Sheffield University club; <em>"London 2012, Here I Come!"</em>
+        - date: December 2008
+          detail: Pass my first grading from white to yellow belt.
+        - date: April 2010
+          detail: Elected to position of publicity officer of SU club and grade from green belt to blue tag.
+        - date: April 2011
+          detail: Elected to position of secretary of SU club.
+        - date: November 2011
+          detail: Become captain (acting) of SU club, risking causing a rupture in the space-time continuum.
+        - date: December 2011
+          detail: Give obligatory captain's speech at SU club Christmas meal!
+        - date: April 2012
+          detail: Grade from red belt to black tag.
+        - date: August 2012
+          detail: Watch 12 hours of Taekwondo at the ExCeL during the London 2012 Olympics.
+        - date: October 2012
+          detail: Grade from black tag to 1st dan black belt.
+        - date: October 2015
+          detail: Brush shoulders with the high and mighty of the Taekwondo world, including Team GB members, at a Taekwondo Grand Prix in Manchester!
+        - date: Current
+          detail: Getting back into the martial art after some time out and aiming for 2nd Dan black belt.
+    photos:
       - image: fightingGear.jpg
         altText: Me in Fighting Gear
       - image: jumpingKick.jpg
