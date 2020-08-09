@@ -2,7 +2,7 @@ me:
   sectionTitle:
     title: Benedict W. Hazel
     subtitle: London based Theoretical Chemist turned Software Engineer
-    image: /img/me.png
+    image: /img/me.jpg
     imageAltText: Me
     backgroundImage: /img/londonSkyline.jpg
     backgroundImageAltText: London Skyline
@@ -11,6 +11,9 @@ me:
     - Although my work involves a wide variety of technologies, I specialise in the Microsoft .NET platform, including ASP.NET, and Microsoft Azure.
     - My IT career actually followed my life hobby as my academic background is in chemistry!  I hold a masters degree and PhD in inorganic and theoretical chemistry from the University of Sheffield.
     - Away from work I am involved in music and amateur operatics and, to a limited extent, some sport including fitness and Taekwondo.
+  photo:
+    image: /img/me.jpg
+    altText: Me
 computing:
   sectionTitle:
     subtitle: Computing
@@ -21,6 +24,13 @@ computing:
     - I specialise in the Microsoft .NET platform, including ASP.NET for the web, and Microsoft Azure cloud but happily work with many difference technologies.  On a daily basis I use and develop on Windows, macOS and Linux and have had experience with development for mobile platforms such as iOS and Android.
     - My other IT interests include game development and some dabbling in low-level programming with x86 and ARM assembly!  And talking of games I do enjoy some unwinding time on the Xbox One!
   skillHighlights:
+    title: Personal Skill Highlights
+    skillLevelInfo:
+      title: "Colours correspond to:"
+      competent: Competent
+      developing: Developing
+      experience: Experience
+      otherInterest: Other Interests
     competent:
       - .NET
       - ASP.NET
@@ -31,6 +41,7 @@ computing:
       - WPF
       - Azure
       - SQL Server
+      - Ruby
       - HTML
       - JavaScript
       - CSS
@@ -73,23 +84,29 @@ chemistry:
       quote: Supermolecules are to molecules and the intermolecular bond what molecules are to atoms and the covalent bond.
       citation: Jean-Marie Lehn, Angew. Chem. Int. Ed., <strong>1990</strong>, 20, 1304
     researchOverview:
-      - Metallomacrocycles are examples of cyclic supermolecules, effectively made up of smaller molecules and a large central cavity.  In this case they are organic linker units and metal-centred complexes. They are often referred to as Molecular Squares as the metal complexes form the corners and are linked together via the organic compounds which are usually linear.
-      - The metallomacrocycles I studied contain two metals, ruthenium and rhenium, each on two opposite corners.  They are linked together by an interesting C-shaped molecule called quaterpyridine which incorporates the ruthenium corners into its structure.  The quaterpyridine also changes the overall shape of the metallomacrocycle into a bowl which results in a more rhombic central cavity.  This cavity can accept small guest molecules which can also affect the overall metallomacrocycle structure.
-      - It is these "host-guest" interactions between the metallomacrocycle and small guests that I studied using quantum modelling.  This is a computational technique for simulating the molecules and their interactions on the computer.
-      - The two papers in the other popup sections below contain information about the metallomacrocycles I studied.  The first is an introduction to them and the second is one I co-wrote and presents of some of my research.  Both papers are co-written by Prof. Anthony Meijer and Prof. Jim Thomas, my PhD supervisors.
+      title: My PhD Research Overview
+      details:
+        - Metallomacrocycles are examples of cyclic supermolecules, effectively made up of smaller molecules and a large central cavity.  In this case they are organic linker units and metal-centred complexes. They are often referred to as Molecular Squares as the metal complexes form the corners and are linked together via the organic compounds which are usually linear.
+        - The metallomacrocycles I studied contain two metals, ruthenium and rhenium, each on two opposite corners.  They are linked together by an interesting C-shaped molecule called quaterpyridine which incorporates the ruthenium corners into its structure.  The quaterpyridine also changes the overall shape of the metallomacrocycle into a bowl which results in a more rhombic central cavity.  This cavity can accept small guest molecules which can also affect the overall metallomacrocycle structure.
+        - It is these "host-guest" interactions between the metallomacrocycle and small guests that I studied using quantum modelling.  This is a computational technique for simulating the molecules and their interactions on the computer.
+        - The two papers in the other popup sections below contain information about the metallomacrocycles I studied.  The first is an introduction to them and the second is one I co-wrote and presents of some of my research.  Both papers are co-written by Prof. Anthony Meijer and Prof. Jim Thomas, my PhD supervisors.
     papers:
       - siteTitle: Metallomacrocycles Paper
         title: "Self-Assembled, Kinetically Locked, Ru<sup>II</sup>-Based Metallomacrocycles: Physical, Structural, and Modeling Studies"
         authors: Paul de Wolf, Phil Waywell, Matt Hanson, Sarah L. Heath, Anthony J. H. M. Meijer, Simon J. Teat, Jim A. Thomas
         abstract: By using a “complex as ligand approach,” the metal-ion-templated self-assembly of heterometallic teteranuclear metallomacrocycles containing kinetically locked RuII centers is described.  Depending on the metal-ion template employed in the self-assembly process, the final macrocycle can be kinetically labile or inert.  Electrochemical studies reveal that the kinetically inert macrocycles display reversible Ru<sup>III</sup>/<sup>II</sup> oxidation couples.  The crystal structure of a kinetically inert Ru2Re2 macrocycles reveals a structurally complex palmate anion-binding pocket.  Host–guest studies carried out with the same macrocyle in organic solvents reveals that the complex functions as a luminescent sensor for anions and that binding affinity and luminescent modulation is dependent on the structural nature and charge of the guest anion.  Computational density functional theory (DFT) studies support the hypothesis that the luminescence of the macrocycle is from a 3MLCT state and further suggests that the observed guest-induced luminescence changes are most likely due to modulation of nonradiative decay processes.
         citation: Chem. Eur. J., 2006, <strong>12</strong>, 8, 2188-2195
-        link: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.200500623
+        link:
+          url: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.200500623
+          text: Read Online
       - siteTitle: Research Contributions Paper
         title: A Self-Assembled Luminescent Host That Selectively Senses ATP in Water
         authors: Haslina Ahmad, Benedict W. Hazel, Anthony J. H. M. Meijer, Jim A. Thomas, Karl A. Wilkinson
         abstract: Metal-ion-directed self-assembly has been used to construct kinetically inert, water-soluble heterometallic Ru<sub>2</sub>Re<sub>2</sub> hosts that are potential sensors for bioanions.  A previously reported metallomacrocycle and a new derivative synthesised by this approach are found to be general sensors for bioanions in water, showing an “off–on” luminescent change that is selective for nucleotides over uncharged nucleobases.  Through a change in the ancillary ligands coordinated to the ruthenium centres of the host, an “off–on” sensor has been produced.  Whilst this host only shows a modest enhancement in binding affinities for nucleotides relative to the other two host systems, its sensing response is much more specific.  Although a distinctive “off–on” luminescence response is observed for the addition of adenosine triphosphosphate (ATP), related structures such as adenine and guanosine triphosphate (GTP) do not induce any emission change in the host.  Detailed and demanding DFT studies on the ATP- and GTP-bound host–guest complexes reveal subtle differences in their geometries that modulate the stacking interactions between the nucleotide guests and the ancillary ligands of the host.  It is suggested that this change in stacking geometries affects solvent accessibility to the binding pocket of the host and thus leads to observed difference in the host luminescence response to the guests.
         citation: Chem. Eur. J., 2013, <strong>19</strong>, 16, 5081-5087
-        link: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.201203603
+        link:
+          url: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.201203603
+          text: Read Online
 music:
   sectionTitle:
     subtitle: Music
@@ -113,6 +130,13 @@ music:
       link:
         text: Find out More
         url: http://4forces.bwhazel.co.uk
+      soundCloudWidget:
+        profileLink:
+          url: https://soundcloud.com/benedict-hazel
+          text: Benedict Hazel
+        samplesLink:
+          url: https://soundcloud.com/benedict-hazel/sets/four-forces-samples
+          text: Four Forces Samples
 sport:
   sectionTitle:
     subtitle: Sport &amp; Leisure
@@ -124,42 +148,54 @@ sport:
   taekwondo:
     title: My Taekwondo Journey
     competitions:
-      - date: 13th November 2010
-        event: Kyo Hoon Taekwondo, Sheffield
-        entries:
-          - Poomsae (Jung In) - Bronze
-        video: https://www.youtube.com/watch?v=jIJbiOlm_eo
-        photos: https://get.google.com/albumarchive/101454188929422616159/album/AF1QipMxF5HINrEmiVN_B1Tr0QEh-s82nxZ90ugCtrUd
-      - date: 21st April 2012
-        event: Kyo Hoon Taekwondo, Sheffield
-        entries:
-          - Poomsae (Jung Do) - Silver
-          - Fighting - Bronze
-        video: https://www.youtube.com/watch?v=lvEgZVoiHgw
+      title: Competitions
+      events:
+        - date: 13th November 2010
+          event: Kyo Hoon Taekwondo, Sheffield
+          entries:
+            - Poomsae (Jung In) - Bronze
+          videoLink:
+            url: https://www.youtube.com/watch?v=jIJbiOlm_eo
+            text: Watch on YouTube
+          photosLink:
+            url: https://get.google.com/albumarchive/101454188929422616159/album/AF1QipMxF5HINrEmiVN_B1Tr0QEh-s82nxZ90ugCtrUd
+            text: Event Photos
+        - date: 21st April 2012
+          event: Kyo Hoon Taekwondo, Sheffield
+          entries:
+            - Poomsae (Jung Do) - Silver
+            - Fighting - Bronze
+          videoLink:
+            url: https://www.youtube.com/watch?v=lvEgZVoiHgw
+            text: Watch on YouTube
     milestones:
-      - date: September 2008
-        detail: Start training Taekwondo at Sheffield University club; <em>"London 2012, Here I Come!"</em>
-      - date: December 2008
-        detail: Pass my first grading from white to yellow belt.
-      - date: April 2010
-        detail: Elected to position of publicity officer of SU club and grade from green belt to blue tag.
-      - date: April 2011
-        detail: Elected to position of secretary of SU club.
-      - date: November 2011
-        detail: Become captain (acting) of SU club, risking causing a rupture in the space-time continuum.
-      - date: December 2011
-        detail: Give obligatory captain's speech at SU club Christmas meal!
-      - date: April 2012
-        detail: Grade from red belt to black tag.
-      - date: August 2012
-        detail: Watch 12 hours of Taekwondo at the ExCeL during the London 2012 Olympics.
-      - date: October 2012
-        detail: Grade from black tag to 1st dan black belt.
-      - date: October 2015
-        detail: Brush shoulders with the high and mighty of the Taekwondo world, including Team GB members, at a Taekwondo Grand Prix in Manchester!
-      - date: Current
-        detail: Getting back into the martial art after some time out and aiming for 2nd Dan black belt.
-    carousel:
+      title: Significant Milestones
+      dateHeader: Date
+      milestoneHeader: Milestone
+      timeline:
+        - date: September 2008
+          detail: Start training Taekwondo at Sheffield University club; <em>"London 2012, Here I Come!"</em>
+        - date: December 2008
+          detail: Pass my first grading from white to yellow belt.
+        - date: April 2010
+          detail: Elected to position of publicity officer of SU club and grade from green belt to blue tag.
+        - date: April 2011
+          detail: Elected to position of secretary of SU club.
+        - date: November 2011
+          detail: Become captain (acting) of SU club, risking causing a rupture in the space-time continuum.
+        - date: December 2011
+          detail: Give obligatory captain's speech at SU club Christmas meal!
+        - date: April 2012
+          detail: Grade from red belt to black tag.
+        - date: August 2012
+          detail: Watch 12 hours of Taekwondo at the ExCeL during the London 2012 Olympics.
+        - date: October 2012
+          detail: Grade from black tag to 1st dan black belt.
+        - date: October 2015
+          detail: Brush shoulders with the high and mighty of the Taekwondo world, including Team GB members, at a Taekwondo Grand Prix in Manchester!
+        - date: Current
+          detail: Getting back into the martial art after some time out and aiming for 2nd Dan black belt.
+    photos:
       - image: fightingGear.jpg
         altText: Me in Fighting Gear
       - image: jumpingKick.jpg

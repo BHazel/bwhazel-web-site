@@ -8,25 +8,26 @@
                 {% endfor %}
             </div>
             <div id="computing-skills" class="col s12 m6">
-                <h5>Personal Skill Highlights</h5>
-                {% for skill in computingData.skillHighlights.competent %}
+                {% assign skills = computingData.skillHighlights %}
+                <h5>{{skills.title}}</h5>
+                {% for skill in skills.competent %}
                 <div class="chip colour-scheme-override skill-competent">{{skill}}</div>
                 {% endfor %}
-                {% for skill in computingData.skillHighlights.developing %}
+                {% for skill in skills.developing %}
                 <div class="chip colour-scheme-override skill-developing">{{skill}}</div>
                 {% endfor %}
-                {% for skill in computingData.skillHighlights.experience %}
+                {% for skill in skills.experience %}
                 <div class="chip colour-scheme-override skill-experience">{{skill}}</div>
                 {% endfor %}
-                {% for skill in computingData.skillHighlights.otherInterest %}
+                {% for skill in skills.otherInterest %}
                 <div class="chip colour-scheme-override skill-otherInterest">{{skill}}</div>
                 {% endfor %}
 
-                <p>Colours correspond to:</p>
-                <div class="chip colour-scheme-override skill-competent">Competent</div>
-                <div class="chip colour-scheme-override skill-developing">Developing</div>
-                <div class="chip colour-scheme-override skill-experience">Experience</div>
-                <div class="chip colour-scheme-override skill-otherInterest">Other Interests</div>
+                <p>{{skills.skillLevelInfo.title}}</p>
+                <div class="chip colour-scheme-override skill-competent">{{skills.skillLevelInfo.competent}}</div>
+                <div class="chip colour-scheme-override skill-developing">{{skills.skillLevelInfo.developing}}</div>
+                <div class="chip colour-scheme-override skill-experience">{{skills.skillLevelInfo.experience}}</div>
+                <div class="chip colour-scheme-override skill-otherInterest">{{skills.skillLevelInfo.otherInterest}}</div>
             </div>
         </div>
     </div>
