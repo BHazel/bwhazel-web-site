@@ -130,6 +130,13 @@ music:
       link:
         text: Find out More
         url: http://4forces.bwhazel.co.uk
+      soundCloudWidget:
+        profileLink:
+          url: https://soundcloud.com/benedict-hazel
+          text: Benedict Hazel
+        samplesLink:
+          url: https://soundcloud.com/benedict-hazel/sets/four-forces-samples
+          text: Four Forces Samples
 sport:
   sectionTitle:
     subtitle: Sport &amp; Leisure
