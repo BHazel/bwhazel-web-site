@@ -47,6 +47,10 @@
     padding: 5px 10px 5px 10px;
 }
 
+.standalone-img {
+    @extend .z-depth-4;
+}
+
 footer .page-footer {
     margin: 0;
 }
