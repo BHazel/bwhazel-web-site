@@ -16,9 +16,9 @@
                 </blockquote>
                 <ul class="collapsible popout">
                     <li>
-                        <div class="collapsible-header colour-primary">My PhD Research Overview</div>
+                        <div class="collapsible-header colour-primary">{{chemistryData.bigSquares.researchOverview.title}}</div>
                         <div class="collapsible-body colour-primary-dark">
-                            {% for researchOverviewDetail in chemistryData.bigSquares.researchOverview %}
+                            {% for researchOverviewDetail in chemistryData.bigSquares.researchOverview.details %}
                             <p>{{researchOverviewDetail}}</p>
                             {% endfor %}
                         </div>
@@ -32,7 +32,7 @@
                                 <p>{{paper.authors}}</p>
                                 <cite>{{paper.citation}}</cite>
                             </blockquote>
-                            <a class="btn waves-effect" href="{{paper.link}}">Read Online</a>
+                            <a class="btn waves-effect" href="{{paper.link.url}}">{{paper.link.text}}</a>
                             <p>{{paper.abstract}}</p>
                         </div>
                     </li>
