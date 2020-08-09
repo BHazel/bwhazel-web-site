@@ -1,0 +1,64 @@
+{% assign sportData = site.data.content.sport %}
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                {% for detail in sportData.details %}
+                    <p>{{detail}}</p>
+                {% endfor %}
+            </div>
+            <div class="col s12 m6 colour-scheme-override colour-secondary">
+                <h5>{{sportData.taekwondo.title}}</h5>
+                <ul class="collapsible popout">   
+                    <li>
+                        <div class="collapsible-header colour-primary">Competitions</div>
+                        <div class="collapsible-body colour-primary-dark">
+                        {% for competition in sportData.taekwondo.competitions %}
+                            <h6>{{competition.date}} <em>({{competition.event}})</em></h6>
+                            <ul>
+                            {% for entry in competition.entries %}
+                            <li>{{entry}}</li>
+                            {% endfor %}
+                            </ul>
+                            {% if competition.video %}
+                            <a class="btn waves-effect" href="{{competition.video}}">Watch on YouTube</a>
+                            {% endif %}
+                            {% if competition.photos %}
+                            <a class="btn waves-effect" href="{{competition.photos}}">Event Photos</a>
+                            {% endif %}
+                        {% endfor %}
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header colour-primary">Significant Milestones</div>
+                        <div class="collapsible-body colour-primary-dark">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Milestone</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for milestone in sportData.taekwondo.milestones %}
+                                    <tr>
+                                        <td>{{milestone.date}}</td>
+                                        <td>{{milestone.detail}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            {% for carouselImage in sportData.taekwondo.carousel %}
+            <div class="col s12 m4 center">
+                <img class="responsive-img standalone-img" src="/img/{{carouselImage.image}}" />
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
