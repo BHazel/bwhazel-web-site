@@ -8,8 +8,8 @@
                 {% endfor %}
             </div>
             <div id="computing-skills" class="col s12 m6">
-                <h5>Personal Skill Highlights</h5>
                 {% assign skills = computingData.skillHighlights %}
+                <h5>{{skills.title}}</h5>
                 {% for skill in skills.competent %}
                 <div class="chip colour-scheme-override skill-competent">{{skill}}</div>
                 {% endfor %}
@@ -23,7 +23,7 @@
                 <div class="chip colour-scheme-override skill-otherInterest">{{skill}}</div>
                 {% endfor %}
 
-                <p>Colours correspond to:</p>
+                <p>{{skills.skillLevelInfo.title}}</p>
                 <div class="chip colour-scheme-override skill-competent">{{skills.skillLevelInfo.competent}}</div>
                 <div class="chip colour-scheme-override skill-developing">{{skills.skillLevelInfo.developing}}</div>
                 <div class="chip colour-scheme-override skill-experience">{{skills.skillLevelInfo.experience}}</div>
