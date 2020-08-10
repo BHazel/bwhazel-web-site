@@ -2,7 +2,7 @@ me:
   sectionTitle:
     title: Benedict W. Hazel
     subtitle: London based Theoretical Chemist turned Software Engineer
-    image: /img/me.jpg
+    image: /img/meSquare.jpg
     imageAltText: Me
     backgroundImage: /img/londonSkyline.jpg
     backgroundImageAltText: London Skyline
@@ -12,7 +12,7 @@ me:
     - My IT career actually followed my life hobby as my academic background is in chemistry!  I hold a masters degree and PhD in inorganic and theoretical chemistry from the University of Sheffield.
     - Away from work I am involved in music and amateur operatics and, to a limited extent, some sport including fitness and Taekwondo.
   photo:
-    image: /img/me.jpg
+    image: /img/mePortrait.jpg
     altText: Me
 computing:
   sectionTitle:
