@@ -202,3 +202,13 @@ sport:
         altText: Jumping Front Kick
       - image: blackBelt.jpg
         altText: Getting my 1st Dan Black Belt
+errors:
+  http404:
+    sectionTitle:
+      title: An Error has Occurred
+      subtitle: 404 (Page not Found)
+      backgroundImage: /img/woodenBoats.jpg
+      backgroundImageAltText: Wooden Boats
+    details:
+      - The request you made cannot be found.  Please try again.
+      - If you ended up here clicking a link on one of Benedict Hazel's web sites, please report this as a bug.
