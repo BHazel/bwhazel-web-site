@@ -1,0 +1,18 @@
+---
+title: Page Not Found (Error 404)
+layout: default
+---
+
+{% assign http404Data = site.data.content.errors.http404 %}
+{% include parallaxTitle.html
+    title=http404Data.sectionTitle.title
+    subtitle=http404Data.sectionTitle.subtitle
+    backgroundImage=http404Data.sectionTitle.backgroundImage
+    backgroundImageAltText=http404Data.sectionTitle.backgroundImageAltText
+%}
+
+<div class="container">
+    {% for detail in http404Data.details %}
+        <p>{{detail}}</p>
+    {% endfor %}
+</div>
