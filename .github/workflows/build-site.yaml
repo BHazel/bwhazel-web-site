@@ -22,9 +22,8 @@ jobs:
         run: |
           find . -type f -exec sed -i "s/{{secrets.azureAppInsightsKey}}/$azureAppInsightsKey/g" {} +
       - name: Build Site
-        working-directory: ./src
         run: |
-          jekyll build
+          make build
       - name: Upload Build Artefact
         uses: actions/upload-artifact@v2
         with:
