@@ -11,7 +11,7 @@
                 <h5>{{sportData.taekwondo.title}}</h5>
                 <ul class="collapsible popout">   
                     <li>
-                        <div class="collapsible-header colour-primary">{{sportData.taekwondo.competitions.title}}</div>
+                        <div class="collapsible-header colour-primary" onclick="sendEvent('{{sportData.taekwondo.competitions.telemetryEvent}}', '{{sportData.telemetryCategory}}')">{{sportData.taekwondo.competitions.title}}</div>
                         <div class="collapsible-body colour-primary-dark">
                         {% for competition in sportData.taekwondo.competitions.events %}
                             <h6>{{competition.date}} <em>({{competition.event}})</em></h6>
@@ -30,7 +30,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header colour-primary">{{sportData.taekwondo.milestones.title}}</div>
+                        <div class="collapsible-header colour-primary" onclick="sendEvent('{{sportData.taekwondo.milestones.telemetryEvent}}', '{{sportData.telemetryCategory}}')">{{sportData.taekwondo.milestones.title}}</div>
                         <div class="collapsible-body colour-primary-dark">
                             <table>
                                 <thead>

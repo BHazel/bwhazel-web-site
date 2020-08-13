@@ -77,6 +77,7 @@ chemistry:
     - I became interested in chemistry at 12 and went on to do a masters degree and PhD at the University of Sheffield.
     - During my academic studies and research I specialised in inorganic and theoretical chemistry, a polar opposite to when I first arrived at university as an organic chemist vowing never to into physical chemistry.  My PhD was in applied molecular quantum theory, about as physical as you can get!
     - It was during my PhD that I got deeply into programming, mostly in my own time but with some as part of my research investigating quantum dynamics of molecules.  It was this programming experience which led me to pursue a career in software engineering.
+  telemetryCategory: Chemistry
   bigSquares:
     title: Big Squares (PhD Research)
     phdTitle: Properties of Metallomacrocycles with d<sup>6</sup> Metal Centres
@@ -90,6 +91,7 @@ chemistry:
         - The metallomacrocycles I studied contain two metals, ruthenium and rhenium, each on two opposite corners.  They are linked together by an interesting C-shaped molecule called quaterpyridine which incorporates the ruthenium corners into its structure.  The quaterpyridine also changes the overall shape of the metallomacrocycle into a bowl which results in a more rhombic central cavity.  This cavity can accept small guest molecules which can also affect the overall metallomacrocycle structure.
         - It is these "host-guest" interactions between the metallomacrocycle and small guests that I studied using quantum modelling.  This is a computational technique for simulating the molecules and their interactions on the computer.
         - The two papers in the other popup sections below contain information about the metallomacrocycles I studied.  The first is an introduction to them and the second is one I co-wrote and presents of some of my research.  Both papers are co-written by Prof. Anthony Meijer and Prof. Jim Thomas, my PhD supervisors.
+      telemetryEvent: ResearchOverview
     papers:
       - siteTitle: Metallomacrocycles Paper
         title: "Self-Assembled, Kinetically Locked, Ru<sup>II</sup>-Based Metallomacrocycles: Physical, Structural, and Modeling Studies"
@@ -99,6 +101,7 @@ chemistry:
         link:
           url: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.200500623
           text: Read Online
+        telemetryEvent: MetallomacrocyclesPaper
       - siteTitle: Research Contributions Paper
         title: A Self-Assembled Luminescent Host That Selectively Senses ATP in Water
         authors: Haslina Ahmad, Benedict W. Hazel, Anthony J. H. M. Meijer, Jim A. Thomas, Karl A. Wilkinson
@@ -107,6 +110,7 @@ chemistry:
         link:
           url: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.201203603
           text: Read Online
+        telemetryEvent: ResearchContributionsPaper
 music:
   sectionTitle:
     subtitle: Music
@@ -116,6 +120,7 @@ music:
     - I am musical and have played several instruments and sung throughout my life.  I primarily sing tenor these days and am involved in a local choir and some amateur operatics with a Gilbert &amp; Sullivan light opera company.
     - It all started when I was 4 when I started playing the piano as an alternative to gym!  Over the years that was followed by the recorder, both descant and treble, flute, a short stint on the 'cello which confirmed I am a wind player and finally teaching myself the alto saxophone!
     - I have also written some music, both classical and modern, one album of which is available on numerous streaming services!
+  telemetryCategory: Music
   compositions:
     title: Compositions
     instrumentalScores:
@@ -124,12 +129,14 @@ music:
       link:
         text: Listen at MuseScore
         url: https://musescore.com/user/536
+      telemetryEvent: InstrumentalScores
     fourForces:
       title: Four Forces
       detail: Listen to samples of <em>Four Forces</em>, an electronica album I wrote using GarageBand.
       link:
         text: Find out More
         url: http://4forces.bwhazel.co.uk
+      telemetryEvent: FourForces
       soundCloudWidget:
         profileLink:
           url: https://soundcloud.com/benedict-hazel
@@ -145,6 +152,7 @@ sport:
   details:
     - I have never been that sporty and many I know would testify to that!  Taking up squash at school was a great way to avoid the cold afternoons of football and at University I went to Sports Fair to pick up freebies!  That is until 2008 when I discovered Taekwondo, signed up and never looked back!  Within 4 years I had attained my 1st Dan black belt!
     - I also have a great passion for board and card games, playing frequently with friends.  We had a very active group at my first job in Oxfordshire often visiting Thirsty Meeples, the first board game cafe in the UK.
+  telemetryCategory: Sport
   taekwondo:
     title: My Taekwondo Journey
     competitions:
@@ -168,6 +176,7 @@ sport:
           videoLink:
             url: https://www.youtube.com/watch?v=lvEgZVoiHgw
             text: Watch on YouTube
+      telemetryEvent: Competitions
     milestones:
       title: Significant Milestones
       dateHeader: Date
@@ -195,6 +204,7 @@ sport:
           detail: Brush shoulders with the high and mighty of the Taekwondo world, including Team GB members, at a Taekwondo Grand Prix in Manchester!
         - date: Current
           detail: Getting back into the martial art after some time out and aiming for 2nd Dan black belt.
+      telemetryEvent: SignificantMilestones
     photos:
       - image: fightingGear.jpg
         altText: Me in Fighting Gear
@@ -212,3 +222,4 @@ errors:
     details:
       - The request you made cannot be found.  Please try again.
       - If you ended up here clicking a link on one of Benedict Hazel's web sites, please report this as a bug.
+    telemetryException: 404

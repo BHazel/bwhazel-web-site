@@ -16,3 +16,7 @@ layout: default
         <p>{{detail}}</p>
     {% endfor %}
 </div>
+
+<script type="text/javascript">
+    sendException('{{http404Data.telemetryException}}');
+</script>
