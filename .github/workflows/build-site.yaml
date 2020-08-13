@@ -1,0 +1,21 @@
+name: Build Site
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.7.1
+      - name: Install Dependencies
+        working-directory: ./src
+        run: |
+          gem install bundler
+          bundle install
+      - name: Build Site
+        working-directory: ./src
+        run: |
+          jekyll build
