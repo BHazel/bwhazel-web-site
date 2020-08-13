@@ -15,7 +15,18 @@ jobs:
         run: |
           gem install bundler
           bundle install
+      - name: Apply Secrets
+        working-directory: ./src
+        env:
+          azureAppInsightsKey: ${{ secrets.AZURE_APP_INSIGHTS_KEY }}
+        run: |
+          find . -type f -exec sed -i "s/{{secrets.azureAppInsightsKey}}/$azureAppInsightsKey/g" {} +
       - name: Build Site
         working-directory: ./src
         run: |
           jekyll build
+      - name: Upload Build Artefact
+        uses: actions/upload-artifact@v2
+        with:
+          name: bwhazel-web-site
+          path: dist
