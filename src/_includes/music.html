@@ -11,14 +11,14 @@
                 <h5>{{musicData.compositions.title}}</h5>
                 <ul class="collapsible popout">
                     <li>
-                        <div class="collapsible-header colour-primary">{{musicData.compositions.instrumentalScores.title}}</div>
+                        <div class="collapsible-header colour-primary" onclick="sendEvent('{{musicData.compositions.instrumentalScores.telemetryEvent}}', '{{musicData.telemetryCategory}}')">{{musicData.compositions.instrumentalScores.title}}</div>
                         <div class="collapsible-body colour-primary-dark">
                             <p>{{musicData.compositions.instrumentalScores.detail}}</p>
                             <a class="btn waves-effect" href="{{musicData.compositions.instrumentalScores.link.url}}">{{musicData.compositions.instrumentalScores.link.text}}</a>
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header colour-primary">{{musicData.compositions.fourForces.title}}</div>
+                        <div class="collapsible-header colour-primary" onclick="sendEvent('{{musicData.compositions.fourForces.telemetryEvent}}', '{{musicData.telemetryCategory}}')">{{musicData.compositions.fourForces.title}}</div>
                         <div class="collapsible-body colour-primary-dark">
                             <p>{{musicData.compositions.fourForces.detail}}</p>
                             <p><a class="btn waves-effect" href="{{musicData.compositions.fourForces.link.url}}">{{musicData.compositions.fourForces.link.text}}</a></p>
