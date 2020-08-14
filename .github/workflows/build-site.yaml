@@ -18,9 +18,9 @@ jobs:
       - name: Apply Secrets
         working-directory: ./src
         env:
-          azureAppInsightsKey: ${{ secrets.AZURE_APP_INSIGHTS_KEY }}
+          azureAppInsightsKeyDev: ${{ secrets.AZURE_APP_INSIGHTS_KEY_DEV }}
         run: |
-          find . -type f -exec sed -i "s/{{secrets.azureAppInsightsKey}}/$azureAppInsightsKey/g" {} +
+          find . -type f -exec sed -i "s/{{secrets.azureAppInsightsKey}}/$azureAppInsightsKeyDev/g" {} +
       - name: Build Site
         run: |
           make build
