@@ -17,12 +17,12 @@ jobs:
           bundle install
       - name: Get Secrets (Development)
         if: github.ref != 'refs/heads/master' && !contains(github.ref, '/rl-')
-        env:
-          azureAppInsightsKey: ${{ secrets.AZURE_APP_INSIGHTS_KEY_DEV }}
+        run: |
+          echo "::set-env name=azureAppInsightsKey::${{ secrets.AZURE_APP_INSIGHTS_KEY_DEV }}"
       - name: Get Secrets (Production)
         if: github.ref == 'refs/heads/master' || contains(github.ref, '/rl-')
-        env:
-          azureAppInsightsKey: ${{ secrets.AZURE_APP_INSIGHTS_KEY_PROD }}
+        run: |
+          echo "::set-env name=azureAppInsightsKey::${{ secrets.AZURE_APP_INSIGHTS_KEY_PROD }}"
       - name: Apply Secrets
         working-directory: ./src
         run: |
