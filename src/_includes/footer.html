@@ -7,17 +7,15 @@
             </div>
             <div class="col m3 s12">
                 <h5>Other Sites</h5>
-                <ul>
-                    <li>4 Forces</li>
-                    <li>Labs</li>
-                </ul>
+                {% include linkList.html
+                    siteList=site.data.links.sites
+                %}
             </div>
             <div class="col m3 s12">
                 <h5>Technologies</h5>
-                <ul>
-                    <li>Jekyll</li>
-                    <li>MaterializeCSS</li>
-                </ul>
+                {% include linkList.html
+                    siteList=site.data.links.technologies
+                %}
             </div>
         </div>
     </div>
