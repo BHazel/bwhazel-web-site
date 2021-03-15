@@ -1,4 +1,3 @@
-
 SITE_SRC_DIR=src
 SITE_DEST_DIR=dist
 
