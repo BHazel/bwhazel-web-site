@@ -22,7 +22,8 @@ computing:
   details:
     - I have always been interested in computers since the age of 6 when my family bought our first computer with Windows 3.1.  I discovered programming when I was 11 with BBC BASIC and Microsoft Visual Basic 6.0 when I was 12, still one of the greatest Christmas presents ever!
     - I specialise in the Microsoft .NET platform, including ASP.NET for the web, and Microsoft Azure cloud but happily work with many difference technologies.  On a daily basis I use and develop on Windows, macOS and Linux and have had experience with development for mobile platforms such as iOS and Android.
-    - My other IT interests include game development and some dabbling in low-level programming with x86 and ARM assembly!  And talking of games I do enjoy some unwinding time on the Xbox One!
+    - My other IT interests include game development and some dabbling in low-level programming with x86 and ARM assembly!  More recently I have started to combine my scientific background and IT interest to develop a deeper understanding of and build skills in quantum computing, an exciting and pioneering new field!
+    - Away from work, and talking of games, I do enjoy some unwinding time on the Xbox One although my skills leave rather a lot to be desired!
   skillHighlights:
     title: Personal Skill Highlights
     skillLevelInfo:
@@ -48,6 +49,8 @@ computing:
       - Docker
       - C/C++
     developing:
+      - Quantum Computing
+      - Q#
       - Kubernetes
       - Helm
       - Python
