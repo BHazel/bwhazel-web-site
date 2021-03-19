@@ -215,6 +215,35 @@ sport:
         altText: Jumping Front Kick
       - image: blackBelt.jpg
         altText: Getting my 1st Dan Black Belt
+info:
+  about:
+    title: About This Site
+    description: This is the personal web site for Benedict W. Hazel.
+  otherSites:
+    title: Other Sites
+    links:
+      - title: Four Forces
+        url: http://4forces.bwhazel.uk
+      - title: Travel Blog
+        url: https://bwhantarctica.blogspot.com
+      - title: Labs
+        url: http://labs.bwhazel.uk
+      - title: API
+        url: http://api.bwhazel.uk
+      - title: Web Group (Legacy)
+        url: http://group.bwhazel.uk
+      - title: NuGet Server (Legacy)
+        url: http://nu.bwhazel.uk
+  technologies:
+    title: Technologies
+    links:
+      - title: Jekyll
+        url: https://jekyllrb.com
+      - title: MaterializeCSS
+        url: https://materializecss.com
+      - title: GitHub
+        url: https://github.com
+  copyright: Copyright &copy; Benedict W. Hazel, 2009-2021.  All views expressed are my own.
 errors:
   http404:
     sectionTitle:
