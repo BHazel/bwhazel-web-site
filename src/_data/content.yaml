@@ -6,7 +6,7 @@ me:
     imageAltText: Me
     backgroundImage: /img/londonSkyline.jpg
     backgroundImageAltText: London Skyline
-  intro: Hello!  I am Benedict based in Wimbledon, London.  I am a senior consultant for a large, international IT consultancy working as a software engineer, a profession I have been doing since late 2012.
+  intro: Hello!  I am Benedict, based in Wimbledon, London.  I am a senior consultant for a large, international IT consultancy working as a software engineer, a profession I have been working in since late 2012.
   details:
     - Although my work involves a wide variety of technologies, I specialise in the Microsoft .NET platform, including ASP.NET, and Microsoft Azure.
     - My IT career actually followed my life hobby as my academic background is in chemistry!  I hold a masters degree and PhD in inorganic and theoretical chemistry from the University of Sheffield.
@@ -78,7 +78,7 @@ chemistry:
     backgroundImageAltText: Chemistry Labware
   details:
     - I became interested in chemistry at 12 and went on to do a masters degree and PhD at the University of Sheffield.
-    - During my academic studies and research I specialised in inorganic and theoretical chemistry, a polar opposite to when I first arrived at university as an organic chemist vowing never to into physical chemistry.  My PhD was in applied molecular quantum theory, about as physical as you can get!
+    - During my academic studies and research I specialised in inorganic and theoretical chemistry, a polar opposite to when I first arrived at university as an organic chemist vowing never to go into physical chemistry.  My PhD was in applied molecular quantum theory, about as physical as you can get!
     - It was during my PhD that I got deeply into programming, mostly in my own time but with some as part of my research investigating quantum dynamics of molecules.  It was this programming experience which led me to pursue a career in software engineering.
   telemetryCategory: Chemistry
   bigSquares:
@@ -92,8 +92,8 @@ chemistry:
       details:
         - Metallomacrocycles are examples of cyclic supermolecules, effectively made up of smaller molecules and a large central cavity.  In this case they are organic linker units and metal-centred complexes. They are often referred to as Molecular Squares as the metal complexes form the corners and are linked together via the organic compounds which are usually linear.
         - The metallomacrocycles I studied contain two metals, ruthenium and rhenium, each on two opposite corners.  They are linked together by an interesting C-shaped molecule called quaterpyridine which incorporates the ruthenium corners into its structure.  The quaterpyridine also changes the overall shape of the metallomacrocycle into a bowl which results in a more rhombic central cavity.  This cavity can accept small guest molecules which can also affect the overall metallomacrocycle structure.
-        - It is these "host-guest" interactions between the metallomacrocycle and small guests that I studied using quantum modelling.  This is a computational technique for simulating the molecules and their interactions on the computer.
-        - The two papers in the other popup sections below contain information about the metallomacrocycles I studied.  The first is an introduction to them and the second is one I co-wrote and presents of some of my research.  Both papers are co-written by Prof. Anthony Meijer and Prof. Jim Thomas, my PhD supervisors.
+        - It is these "host-guest" interactions between the metallomacrocycle and small guests that I studied using quantum molecular modelling.  This is a computational technique for simulating the molecules and their interactions on the computer.
+        - The two papers in the other popup sections below contain information about the metallomacrocycles I studied.  The first is an introduction to them and the second is one I co-authored and presents of some of my research.  Both papers are co-authored by Prof. Anthony Meijer and Prof. Jim Thomas, my PhD supervisors.
       telemetryEvent: ResearchOverview
     papers:
       - siteTitle: Metallomacrocycles Paper
