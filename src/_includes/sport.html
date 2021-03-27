@@ -21,10 +21,10 @@
                             {% endfor %}
                             </ul>
                             {% if competition.videoLink %}
-                            <a class="btn waves-effect" href="{{competition.videoLink.url}}">{{competition.videoLink.text}}</a>
+                            <a class="btn waves-effect" onclick="sendEvent('{{competition.videoLink.telemetryEvent}}', '{{sportData.telemetryCategory}}')" href="{{competition.videoLink.url}}">{{competition.videoLink.text}}</a>
                             {% endif %}
                             {% if competition.photosLink %}
-                            <a class="btn waves-effect" href="{{competition.photosLink.url}}">{{competition.photosLink.text}}</a>
+                            <a class="btn waves-effect" onclick="sendEvent('{{competition.photosLink.telemetryEvent}}', '{{sportData.telemetryCategory}}')" href="{{competition.photosLink.url}}">{{competition.photosLink.text}}</a>
                             {% endif %}
                         {% endfor %}
                         </div>
