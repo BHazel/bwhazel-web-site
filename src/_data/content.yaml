@@ -234,12 +234,12 @@ info:
     description: This is the personal web site for Benedict W. Hazel.
     privacyPolicy:
       title: Privacy Policy
-      url: https://info.bwhazel.uk/privacy-policy
+      url: http://info.bwhazel.co.uk/privacy-policy
   otherSites:
     title: Other Sites
     links:
       - title: BWHazel Info
-        url: https://info.bwhazel.uk
+        url: http://info.bwhazel.co.uk
       - title: Four Forces
         url: http://4forces.bwhazel.uk
       - title: Travel Blog
