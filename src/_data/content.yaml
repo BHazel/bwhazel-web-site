@@ -238,18 +238,14 @@ info:
   otherSites:
     title: Other Sites
     links:
+      - title: BWHazel Info
+        url: https://info.bwhazel.uk
       - title: Four Forces
         url: http://4forces.bwhazel.uk
       - title: Travel Blog
         url: https://bwhantarctica.blogspot.com
-      - title: Labs
-        url: http://labs.bwhazel.uk
-      - title: API
+      - title: Web API
         url: http://api.bwhazel.uk
-      - title: Web Group (Legacy)
-        url: http://group.bwhazel.uk
-      - title: NuGet Server (Legacy)
-        url: http://nu.bwhazel.uk
   technologies:
     title: Technologies
     links:
