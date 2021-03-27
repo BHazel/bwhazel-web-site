@@ -80,6 +80,10 @@ footer {
     .skill-otherInterest {
         @extend .light-blue, .darken-4;
     }
+
+    .skill-certified {
+        @extend .grey, .darken-3;
+    }
 }
 
 @media (prefers-color-scheme: dark) {

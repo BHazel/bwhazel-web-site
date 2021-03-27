@@ -22,12 +22,16 @@
                 {% for skill in skills.otherInterest %}
                 <div class="chip colour-scheme-override skill-otherInterest">{{skill}}</div>
                 {% endfor %}
+                {% for skill in skills.certified %}
+                <div class="chip colour-scheme-override skill-certified">{{skill}}</div>
+                {% endfor %}
 
                 <p>{{skills.skillLevelInfo.title}}</p>
                 <div class="chip colour-scheme-override skill-competent">{{skills.skillLevelInfo.competent}}</div>
                 <div class="chip colour-scheme-override skill-developing">{{skills.skillLevelInfo.developing}}</div>
                 <div class="chip colour-scheme-override skill-experience">{{skills.skillLevelInfo.experience}}</div>
                 <div class="chip colour-scheme-override skill-otherInterest">{{skills.skillLevelInfo.otherInterest}}</div>
+                <div class="chip colour-scheme-override skill-certified">{{skills.skillLevelInfo.certified}}</div>
             </div>
         </div>
     </div>
