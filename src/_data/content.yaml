@@ -32,6 +32,7 @@ computing:
       developing: Developing
       experience: Experience
       otherInterest: Other Interests
+      certified: Certified
     competent:
       - .NET
       - ASP.NET
@@ -71,6 +72,10 @@ computing:
       - Assembly (x86/ARM)
       - Unity
       - Unreal Engine
+    certified:
+      - Azure Developer
+      - Azure DevOps Engineer
+      - Scrum.org PSM-1
 chemistry:
   sectionTitle:
     subtitle: Chemistry
