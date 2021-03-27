@@ -32,7 +32,7 @@
                                 <p>{{paper.authors}}</p>
                                 <cite>{{paper.citation}}</cite>
                             </blockquote>
-                            <a class="btn waves-effect" href="{{paper.link.url}}">{{paper.link.text}}</a>
+                            <a class="btn waves-effect" onclick="sendEvent('{{paper.link.telemetryEvent}}', '{{chemistryData.telemetryCategory}}')" href="{{paper.link.url}}">{{paper.link.text}}</a>
                             <p>{{paper.abstract}}</p>
                         </div>
                     </li>
