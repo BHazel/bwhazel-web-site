@@ -232,6 +232,9 @@ info:
   about:
     title: About This Site
     description: This is the personal web site for Benedict W. Hazel.
+    privacyPolicy:
+      title: Privacy Policy
+      url: https://info.bwhazel.uk/privacy-policy
   otherSites:
     title: Other Sites
     links:
