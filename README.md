@@ -2,6 +2,8 @@
 
 This repository contains the source code for my personal web site.
 
+**Current Site Version:** 3.0.0 _(27/03/2021)_
+
 ## Technologies
 
 * Jekyll
