@@ -73,6 +73,7 @@ computing:
       - Unity
       - Unreal Engine
     certified:
+      - Azure Fundamentals
       - Azure Developer
       - Azure DevOps Engineer
       - Scrum.org PSM-1
@@ -82,7 +83,7 @@ chemistry:
     backgroundImage: /img/chemistryLabware.jpg
     backgroundImageAltText: Chemistry Labware
   details:
-    - I became interested in chemistry at 12 and went on to do a masters degree and PhD at the University of Sheffield.
+    - I became interested in chemistry aged 12 and went on to complete a masters degree and PhD at the University of Sheffield.
     - During my academic studies and research I specialised in inorganic and theoretical chemistry, a polar opposite to when I first arrived at university as an organic chemist vowing never to go into physical chemistry.  My PhD was in applied molecular quantum theory, about as physical as you can get!
     - It was during my PhD that I got deeply into programming, mostly in my own time but with some as part of my research investigating quantum dynamics of molecules.  It was this programming experience which led me to pursue a career in software engineering.
   telemetryCategory: Chemistry
@@ -207,7 +208,7 @@ sport:
         - date: August 2012
           detail: Watch 12 hours of Taekwondo at the ExCeL during the London 2012 Olympics.
         - date: October 2012
-          detail: Grade from black tag to 1st dan black belt.
+          detail: Grade from black tag to 1st Dan black belt.
         - date: October 2015
           detail: Brush shoulders with the high and mighty of the Taekwondo world, including Team GB members, at a Taekwondo Grand Prix in Manchester!
         - date: Current
