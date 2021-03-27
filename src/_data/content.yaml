@@ -110,6 +110,7 @@ chemistry:
         link:
           url: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.200500623
           text: Read Online
+          telemetryEvent: MetallomacrocyclesPaperRead
         telemetryEvent: MetallomacrocyclesPaper
       - siteTitle: Research Contributions Paper
         title: A Self-Assembled Luminescent Host That Selectively Senses ATP in Water
@@ -119,6 +120,7 @@ chemistry:
         link:
           url: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.201203603
           text: Read Online
+          telemetryEvent: ResearchContributionsPaperRead
         telemetryEvent: ResearchContributionsPaper
 music:
   sectionTitle:
@@ -138,6 +140,7 @@ music:
       link:
         text: Listen at MuseScore
         url: https://musescore.com/user/536
+        telemetryEvent: InstrumentalScoresView
       telemetryEvent: InstrumentalScores
     fourForces:
       title: Four Forces
@@ -145,6 +148,7 @@ music:
       link:
         text: Find out More
         url: http://4forces.bwhazel.co.uk
+        telemetryEvent: FourForcesView
       telemetryEvent: FourForces
       soundCloudWidget:
         profileLink:
@@ -174,9 +178,11 @@ sport:
           videoLink:
             url: https://www.youtube.com/watch?v=jIJbiOlm_eo
             text: Watch on YouTube
+            telemetryEvent: Competition2010VideoView
           photosLink:
             url: https://get.google.com/albumarchive/101454188929422616159/album/AF1QipMxF5HINrEmiVN_B1Tr0QEh-s82nxZ90ugCtrUd
             text: Event Photos
+            telemetryEvent: Competition2010PhotosView
         - date: 21st April 2012
           event: Kyo Hoon Taekwondo, Sheffield
           entries:
@@ -185,6 +191,7 @@ sport:
           videoLink:
             url: https://www.youtube.com/watch?v=lvEgZVoiHgw
             text: Watch on YouTube
+            telemetryEvent: Competition2012VideoView
       telemetryEvent: Competitions
     milestones:
       title: Significant Milestones
