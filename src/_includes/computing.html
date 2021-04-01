@@ -1,0 +1,38 @@
+{% assign computingData = site.data.content.computing %}
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                {% for detail in computingData.details %}
+                <p>{{detail}}</p>
+                {% endfor %}
+            </div>
+            <div id="computing-skills" class="col s12 m6">
+                {% assign skills = computingData.skillHighlights %}
+                <h5>{{skills.title}}</h5>
+                {% for skill in skills.competent %}
+                <div class="chip colour-scheme-override skill-competent">{{skill}}</div>
+                {% endfor %}
+                {% for skill in skills.developing %}
+                <div class="chip colour-scheme-override skill-developing">{{skill}}</div>
+                {% endfor %}
+                {% for skill in skills.experience %}
+                <div class="chip colour-scheme-override skill-experience">{{skill}}</div>
+                {% endfor %}
+                {% for skill in skills.otherInterest %}
+                <div class="chip colour-scheme-override skill-otherInterest">{{skill}}</div>
+                {% endfor %}
+                {% for skill in skills.certified %}
+                <div class="chip colour-scheme-override skill-certified">{{skill}}</div>
+                {% endfor %}
+
+                <p>{{skills.skillLevelInfo.title}}</p>
+                <div class="chip colour-scheme-override skill-competent">{{skills.skillLevelInfo.competent}}</div>
+                <div class="chip colour-scheme-override skill-developing">{{skills.skillLevelInfo.developing}}</div>
+                <div class="chip colour-scheme-override skill-experience">{{skills.skillLevelInfo.experience}}</div>
+                <div class="chip colour-scheme-override skill-otherInterest">{{skills.skillLevelInfo.otherInterest}}</div>
+                <div class="chip colour-scheme-override skill-certified">{{skills.skillLevelInfo.certified}}</div>
+            </div>
+        </div>
+    </div>
+</div>

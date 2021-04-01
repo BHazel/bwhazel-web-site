@@ -1,0 +1,94 @@
+---
+---
+
+@import "./materialize";
+
+.colour-primary-base {
+    @extend .teal;
+}
+
+.colour-primary-shade {
+    @extend .darken-1;
+}
+
+.colour-primary-shade-dark {
+    @extend .darken-3;
+}
+
+.colour-secondary-base {
+    @extend .purple;
+}
+
+.colour-secondary-shade {
+    @extend .darken-4;
+}
+
+.colour-primary {
+    @extend .colour-primary-base, .colour-primary-shade;
+}
+
+.colour-primary-dark {
+    @extend .colour-primary-base, .colour-primary-shade-dark;
+}
+
+.colour-secondary {
+    @extend .colour-secondary-base, .colour-secondary-shade;
+}
+
+.parallax-container {
+    height: auto;
+}
+
+.colour-scheme-override {
+    color: #ffffff;
+}
+
+.highlight-section {
+    padding: 5px 10px 5px 10px;
+}
+
+.standalone-img {
+    @extend .z-depth-4;
+}
+
+footer {
+    .page-footer {
+        margin: 0;
+    }
+
+    a {
+        color: #ffffff;
+    }
+}
+
+#computing-skills {
+    @extend .colour-scheme-override;
+    @extend .colour-secondary;
+
+    .skill-competent {
+        @extend .colour-primary;
+    }
+
+    .skill-developing {
+        @extend .amber, .accent-3;
+    }
+
+    .skill-experience {
+        @extend .deep-orange, .darken-3;
+    }
+
+    .skill-otherInterest {
+        @extend .light-blue, .darken-4;
+    }
+
+    .skill-certified {
+        @extend .grey, .darken-3;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333333;
+        color: #ffffff;
+    }
+}

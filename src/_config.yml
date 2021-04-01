@@ -1,2 +1,4 @@
 title: BWHazel Web Site
 markdown: kramdown
+sass:
+  sass_dir: css

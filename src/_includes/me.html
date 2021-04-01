@@ -1,0 +1,20 @@
+{% assign meData = site.data.content.me %}
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m8 colour-secondary colour-scheme-override">
+                <h5>
+                    {{meData.intro}}
+                </h5>
+                {% for detail in meData.details %}
+                <p>
+                    {{detail}}
+                </p>
+                {% endfor %}
+            </div>
+            <div class="col s12 m4 center">
+                <img class="responsive-img standalone-img" src="{{meData.photo.image}}" alt="{{meData.photo.altText}}" />
+            </div>
+        </div>
+    </div>
+</div>

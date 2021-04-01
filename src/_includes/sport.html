@@ -1,0 +1,64 @@
+{% assign sportData = site.data.content.sport %}
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                {% for detail in sportData.details %}
+                    <p>{{detail}}</p>
+                {% endfor %}
+            </div>
+            <div class="col s12 m6 colour-scheme-override colour-secondary">
+                <h5>{{sportData.taekwondo.title}}</h5>
+                <ul class="collapsible popout">   
+                    <li>
+                        <div class="collapsible-header colour-primary" onclick="sendEvent('{{sportData.taekwondo.competitions.telemetryEvent}}', '{{sportData.telemetryCategory}}')">{{sportData.taekwondo.competitions.title}}</div>
+                        <div class="collapsible-body colour-primary-dark">
+                        {% for competition in sportData.taekwondo.competitions.events %}
+                            <h6>{{competition.date}} <em>({{competition.event}})</em></h6>
+                            <ul>
+                            {% for entry in competition.entries %}
+                            <li>{{entry}}</li>
+                            {% endfor %}
+                            </ul>
+                            {% if competition.videoLink %}
+                            <a class="btn waves-effect" onclick="sendEvent('{{competition.videoLink.telemetryEvent}}', '{{sportData.telemetryCategory}}')" href="{{competition.videoLink.url}}">{{competition.videoLink.text}}</a>
+                            {% endif %}
+                            {% if competition.photosLink %}
+                            <a class="btn waves-effect" onclick="sendEvent('{{competition.photosLink.telemetryEvent}}', '{{sportData.telemetryCategory}}')" href="{{competition.photosLink.url}}">{{competition.photosLink.text}}</a>
+                            {% endif %}
+                        {% endfor %}
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header colour-primary" onclick="sendEvent('{{sportData.taekwondo.milestones.telemetryEvent}}', '{{sportData.telemetryCategory}}')">{{sportData.taekwondo.milestones.title}}</div>
+                        <div class="collapsible-body colour-primary-dark">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>{{sportData.taekwondo.milestones.dateHeader}}</th>
+                                        <th>{{sportData.taekwondo.milestones.milestoneHeader}}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for milestone in sportData.taekwondo.milestones.timeline %}
+                                    <tr>
+                                        <td>{{milestone.date}}</td>
+                                        <td>{{milestone.detail}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            {% for photo in sportData.taekwondo.photos %}
+            <div class="col s12 m4 center">
+                <img class="responsive-img standalone-img" src="/img/{{photo.image}}" alt="{{photo.altText}}" />
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

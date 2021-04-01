@@ -1,0 +1,29 @@
+{% assign infoData = site.data.content.info %}
+<footer class="page-footer colour-scheme-override colour-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col m6 s12">
+                <h5>{{infoData.about.title}}</h5>
+                <p>{{infoData.about.description}}</p>
+                <p><a href="{{infoData.about.privacyPolicy.url}}">{{infoData.about.privacyPolicy.title}}</a></p>
+            </div>
+            <div class="col m3 s12">
+                <h5>{{infoData.otherSites.title}}</h5>
+                {% include linkList.html
+                    siteList=infoData.otherSites.links
+                %}
+            </div>
+            <div class="col m3 s12">
+                <h5>{{infoData.technologies.title}}</h5>
+                {% include linkList.html
+                    siteList=infoData.technologies.links
+                %}
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container center">
+            <p>{{infoData.copyright}}</p>
+        </div>
+    </div>
+</footer>
