@@ -235,6 +235,8 @@ info:
     privacyPolicy:
       title: Privacy Policy
       url: http://info.bwhazel.co.uk/privacy-policy
+    version:
+      title: Site Version
   otherSites:
     title: Other Sites
     links:
