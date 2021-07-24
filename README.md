@@ -9,12 +9,14 @@ This repository contains the source code for my personal web site.
 
 ## Getting Started
 
-It is recommended to use Docker for the development environment, for which the image can be built using the `dev-env.Dockerfile` in the root of the repository.
+It is recommended to use Docker for the development environment, for which the image can be built using the `Dockerfile` in the root of the repository.
 
 ```
-docker image build -t x-bwhazel -f dev-env.Dockerfile .
+docker image build -t x-bwhazel --target dev-env .
 docker container run -it --rm -p 4000:4000 -v /path/to/repository:/src x-bwhazel bash
 ```
+
+Leaving out the `--target` flag will set up the development environment, build the site and publish it as an NGINX-based Docker image.
 
 Once the container is running, the source code can be accessed in the `/src` directory.
 
