@@ -74,6 +74,7 @@ computing:
       - Unreal Engine
     certified:
       - Azure Fundamentals
+      - Azure Data Fundamentals
       - Azure Developer
       - Azure DevOps Engineer
       - Scrum.org PSM-1
