@@ -1,5 +1,5 @@
 title: BWHazel Web Site
-version: 3.0.1
+version: 3.0.2
 markdown: kramdown
 sass:
   sass_dir: css
