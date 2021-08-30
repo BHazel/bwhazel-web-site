@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.0.2 _(30/08/2021)_
+
+* Add Azure Data Fundamentals certification.
+
 ## v3.0.1 _(24/07/2021)_
 
 * Add site version to site.
