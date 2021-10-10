@@ -242,13 +242,13 @@ info:
     title: Other Sites
     links:
       - title: BWHazel Info
-        url: http://info.bwhazel.co.uk
+        url: https://info.bwhazel.co.uk
       - title: Four Forces
         url: http://4forces.bwhazel.uk
       - title: Travel Blog
         url: https://bwhantarctica.blogspot.com
-      - title: Web API
-        url: http://api.bwhazel.uk
+      - title: BWHazel API
+        url: https://api.bwhazel.uk
   technologies:
     title: Technologies
     links:
@@ -256,8 +256,6 @@ info:
         url: https://jekyllrb.com
       - title: MaterializeCSS
         url: https://materializecss.com
-      - title: GitHub
-        url: https://github.com
   copyright: Copyright &copy; Benedict W. Hazel, 2009-2021.  All views expressed are my own.
 errors:
   http404:
