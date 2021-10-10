@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.0.3 _(10/10/2021)_
+
+* Update links to BWHazel Info and BWHazel API sites.
+* Remove GitHub from technologies list.
+
 ## v3.0.2 _(30/08/2021)_
 
 * Add Azure Data Fundamentals certification.
