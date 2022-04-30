@@ -6,7 +6,7 @@ me:
     imageAltText: Me
     backgroundImage: /img/londonSkyline.jpg
     backgroundImageAltText: London Skyline
-  intro: Hello!  I am Benedict, based in Wimbledon, London.  I am a senior consultant for a large, international IT consultancy working as a software engineer, a profession I have been working in since late 2012.
+  intro: Hello!  I am Benedict, based in Wimbledon, London.  I am a manager at a large, international IT consultancy working as a software engineer and technical team leader, a profession I have been working in since late 2012.
   details:
     - Although my work involves a wide variety of technologies, I specialise in the Microsoft .NET platform, including ASP.NET, and Microsoft Azure.
     - My IT career actually followed my life hobby as my academic background is in chemistry!  I hold a masters degree and PhD in inorganic and theoretical chemistry from the University of Sheffield.
@@ -22,6 +22,7 @@ computing:
   details:
     - I have always been interested in computers since the age of 6 when my family bought our first computer with Windows 3.1.  I discovered programming when I was 11 with BBC BASIC and Microsoft Visual Basic 6.0 when I was 12, still one of the greatest Christmas presents ever!
     - I specialise in the Microsoft .NET platform, including ASP.NET for the web, and Microsoft Azure cloud but happily work with many difference technologies.  On a daily basis I use and develop on Windows, macOS and Linux and have had experience with development for mobile platforms such as iOS and Android.
+    - Recently I have started to transition away from full-time development work and take on more technical team leadership roles.
     - My other IT interests include game development and some dabbling in low-level programming with x86 and ARM assembly!  More recently I have started to combine my scientific background and IT interest to develop a deeper understanding of and build skills in quantum computing, an exciting and pioneering new field!
     - Away from work, and talking of games, I do enjoy some unwinding time on the Xbox One although my skills leave rather a lot to be desired!
   skillHighlights:
@@ -68,6 +69,7 @@ computing:
       - SSIS
       - MongoDB
       - AWS
+      - Microsoft 365
     otherInterest:
       - Assembly (x86/ARM)
       - Unity
@@ -256,7 +258,7 @@ info:
         url: https://jekyllrb.com
       - title: MaterializeCSS
         url: https://materializecss.com
-  copyright: Copyright &copy; Benedict W. Hazel, 2009-2021.  All views expressed are my own.
+  copyright: Copyright &copy; Benedict W. Hazel, 2009-2022.  All views expressed are my own.
 errors:
   http404:
     sectionTitle:
