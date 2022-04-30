@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.0.4 _(30/04/2022)_
+
+* Update versions of Ruby, MaterializeCSS and Jekyll.
+
 ## v3.0.3 _(10/10/2021)_
 
 * Update links to BWHazel Info and BWHazel API sites.
