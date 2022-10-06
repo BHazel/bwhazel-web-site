@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.1.0 _(06/10/2022)_
+
+* Add support for meta theme colour.
+
 ## v3.0.4 _(30/04/2022)_
 
 * Update versions of Ruby, MaterializeCSS and Jekyll.
