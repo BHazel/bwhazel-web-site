@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.1.1 _(05/08/2024)_
+
+* Update title profile photograph.
+* Update computing skills and certifications to include Azure AI Fundamentals.
+
 ## v3.1.0 _(06/10/2022)_
 
 * Add support for meta theme colour.
