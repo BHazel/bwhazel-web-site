@@ -46,6 +46,7 @@ computing:
       - WPF
       - Azure
       - SQL Server
+      - Python
       - Ruby
       - HTML
       - JavaScript
@@ -53,11 +54,11 @@ computing:
       - Docker
       - C/C++
     developing:
+      - AI
       - Quantum Computing
       - Q#
       - Kubernetes
       - Helm
-      - Python
       - Rust
       - Swift
     experience:
@@ -76,9 +77,11 @@ computing:
       - Assembly (x86/ARM)
       - Unity
       - Unreal Engine
+      - SideFX Houdini
     certified:
       - Azure Fundamentals
       - Azure Data Fundamentals
+      - Azure AI Fundamentals
       - Azure Developer
       - Azure DevOps Engineer
       - Scrum.org PSM-1
@@ -260,7 +263,7 @@ info:
         url: https://jekyllrb.com
       - title: MaterializeCSS
         url: https://materializecss.com
-  copyright: Copyright &copy; Benedict W. Hazel, 2009-2022.  All views expressed are my own.
+  copyright: Copyright &copy; Benedict W. Hazel, 2009-2024.  All views expressed are my own.
 errors:
   http404:
     sectionTitle:
