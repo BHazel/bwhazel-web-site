@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.1.2 _(22/08/2024)_
+
+* Update computing skills and certifications to include Azure Architect and Green Software Practitioner.
+
 ## v3.1.1 _(05/08/2024)_
 
 * Update title profile photograph.
