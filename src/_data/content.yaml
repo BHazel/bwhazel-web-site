@@ -23,10 +23,10 @@ computing:
     backgroundImageAltText: Code with Server Racks
   details:
     - I have always been interested in computers since the age of 6 when my family bought our first computer with Windows 3.1.  I discovered programming when I was 11 with BBC BASIC and Microsoft Visual Basic 6.0 when I was 12, still one of the greatest Christmas presents ever!
-    - I specialise in the Microsoft .NET platform, including ASP.NET for the web, and Microsoft Azure cloud but happily work with many difference technologies.  On a daily basis I use and develop on Windows, macOS and Linux and have had experience with development for mobile platforms such as iOS and Android.
-    - Recently I have started to transition away from full-time development work and take on more technical team leadership roles.
-    - My other IT interests include game development and some dabbling in low-level programming with x86 and ARM assembly!  More recently I have started to combine my scientific background and IT interest to develop a deeper understanding of and build skills in quantum computing, an exciting and pioneering new field!
-    - Away from work, and talking of games, I do enjoy some unwinding time on the Xbox One although my skills leave rather a lot to be desired!
+    - I specialise in the Microsoft .NET platform, including ASP.NET for the web, and Microsoft Azure cloud but happily work with many different technologies.  On a daily basis I use and develop on Windows, macOS and Linux and have had experience with development for mobile platforms such as iOS and Android.
+    - Recently I have started to transition away from full-time development work and take on more technical team leadership roles.  However, I still enjoy getting my hands dirty so am developing my skills in AI!
+    - My other IT interests include game development and some dabbling in low-level programming with x86 and ARM assembly!  I am also interested in combining my scientific background and IT interest to develop a deeper understanding of and build skills in quantum computing, an exciting and pioneering new field!
+    - Away from work, and talking of games, I do enjoy some unwinding time on the Xbox and PlayStation although my skills leave rather a lot to be desired!
   skillHighlights:
     title: Personal Skill Highlights
     skillLevelInfo:
@@ -74,7 +74,9 @@ computing:
       - AWS
       - Microsoft 365
     otherInterest:
+      - Ada
       - Assembly (x86/ARM)
+      - RISC OS
       - Unity
       - Unreal Engine
       - SideFX Houdini
@@ -84,6 +86,8 @@ computing:
       - Azure AI Fundamentals
       - Azure Developer
       - Azure DevOps Engineer
+      - Azure Architect
+      - Green Software Practitioner
       - Scrum.org PSM-1
 chemistry:
   sectionTitle:
