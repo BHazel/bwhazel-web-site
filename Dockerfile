@@ -1,4 +1,4 @@
-FROM ruby:3.3.4 AS dev-env
+FROM ruby:3.3.6 AS dev-env
 LABEL maintainer="Benedict W. Hazel"
 
 RUN gem install bundler

@@ -5,11 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3.4
+          ruby-version: 3.3.6
       - name: Install Dependencies
         working-directory: ./src
         run: |
@@ -31,7 +31,7 @@ jobs:
         run: |
           make build
       - name: Upload Build Artefact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: bwhazel-web-site
           path: dist
