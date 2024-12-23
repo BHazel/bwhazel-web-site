@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.1.3 _(23/12/2024)_
+
+* Update computing introduction and remove non-renewed Azure DevOps Engineer certification.
+* Remove broken Taekwondo competition link.
+
 ## v3.1.2 _(22/08/2024)_
 
 * Update computing skills and certifications to include Azure Architect and Green Software Practitioner.
