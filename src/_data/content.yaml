@@ -244,6 +244,9 @@ info:
       url: http://info.bwhazel.co.uk/privacy-policy
     version:
       title: Site Version
+    contact:
+      title: Contact
+      email: me@bwhazel.co.uk
   otherSites:
     title: Other Sites
     links:
