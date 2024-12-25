@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.1.4 _(25/12/2024)_
+
+* Add contact e-mail address.
+* Remove _web.config_ and Kubernetes resources as they are no longer required.
+
 ## v3.1.3 _(23/12/2024)_
 
 * Update computing introduction and remove non-renewed Azure DevOps Engineer certification.
