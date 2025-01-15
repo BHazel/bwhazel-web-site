@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.1.5 _(15/01/2025)_
+
+* Add banner announcing impending launch of new site.
+
 ## v3.1.4 _(25/12/2024)_
 
 * Add contact e-mail address.
