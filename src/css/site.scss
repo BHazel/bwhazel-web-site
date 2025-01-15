@@ -61,6 +61,11 @@ footer {
     }
 }
 
+#new-site {
+    @extend .colour-scheme-override;
+    @extend .red;
+}
+
 #computing-skills {
     @extend .colour-scheme-override;
     @extend .colour-secondary;
