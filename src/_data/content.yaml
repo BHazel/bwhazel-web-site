@@ -1,5 +1,8 @@
 site:
   metaColour: "#00897b"
+newSite:
+  title: New Site Coming Soon!
+  description: A new version of this site will go live later this year!  It will have more info on my work, creations and interests and incorporate content from some of my other sites.  There is no set date yet, however, I am targeting March 2025 for the launch.
 me:
   sectionTitle:
     title: Benedict W. Hazel
