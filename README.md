@@ -2,6 +2,10 @@
 
 This repository contains the source code for my personal web site.
 
+## ARCHIVE NOTICE _(12/04/2025)_
+
+This site has been replaced with a new version written in ASP.NET Blazor WebAssembly.  The source code can be found [here](https://github.com/bhazel/bwhazel-portfolio-web-site.git).  As such, this repository has been archived.
+
 ## Technologies
 
 * Jekyll
